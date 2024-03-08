@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Using table</title>
+</head>
+<body>
+   <table border="1" align="center" cellpadding="5" cellspacing="0" bordercolor="#339999">
+    <caption align="center">Using tables</caption>
+    <tr>
+        <th>Employee name</th>
+        <th>Designation</th>
+        <th>Salary</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Manager</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+    <td>Graham</td>
+    <td>Executive</td>
+    <td>3000</td>
+    </tr>
+   </table> 
+</body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Merge cell in table</title>
+</head>
+<body>
+   <table border="1" align="center">
+    <caption align="center">
+        <h3>My Company Limited</h3>
+    </caption>
+    <tr>
+        <th colspan="2">&nbsp;</th>
+        <th>Clips</th>
+        <th>Staples</th>
+        <th>Pens</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Quater 1</td>
+        <td>Jan</td>
+        <td>2500</td>
+        <TD>100</TD>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td>Fed</td>
+        <td>3000</td>
+        <td>2500</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>March</td>
+        <td>3200</td>
+        <td>1000</td>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Quater 2</td>
+        <td>Apr</td>
+        <td>2500</td>
+        <TD>100</TD>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>May</td>
+        <td>3000</td>
+        <td>2500</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>June</td>
+        <td>3200</td>
+        <td>1000</td>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Quater 3</td>
+        <td>July</td>
+        <td>2500</td>
+        <TD>100</TD>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td>August</td>
+        <td>3000</td>
+        <td>2500</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>Sept</td>
+        <td>3200</td>
+        <td>1000</td>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td rowspan="3">Quater 4</td>
+        <td>Oct</td>
+        <td>2500</td>
+        <TD>100</TD>
+        <td>1240</td>
+    </tr>
+    <tr>
+        <td>Nov</td>
+        <td>3000</td>
+        <td>2500</td>
+        <td>4000</td>
+    </tr>
+    <tr>
+        <td>Dec</td>
+        <td>3200</td>
+        <td>1000</td>
+        <td>1240</td>
+    </tr>
+   </table> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<html>
+    <head>
+        <title>Untitled Document</title>
+        <style type="text/css">
+            td {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="POST" NAME="frmApp">
+            <table border="0" align="center" width="550" cellpadding="1" bgcolor="#000066">
+                <tr>
+                    <td align="right" height="50">
+                        <i><font color="#FFFFFF" size="5"><b>APPLICATION FORM</b></font></i>&nbsp;&nbsp;
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" bgcolor="#FFFFFF"><br>
+                        <table align="center" border="0">
+                            <tr>
+                                <td colspan="2" align="right"></td>
+                            </tr>
+                            <tr>
+                                <td align="right">Frist Name :&nbsp;</td>
+                                <td>
+                                    <input type="text" name="txtName" value="" size="35">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Birthday :&nbsp;</td>
+                                <td>
+                                    <input type="date" name="txtBirthday" value="" size="35">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Education :&nbsp;</td>
+                                <td>
+                                    <input type="checkbox" name="cbo1" value="greduate"> Greduate &nbsp;&nbsp;&nbsp;
+                                    <input type="checkbox" name="cbo2" value="Post"> Post Greduate
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Gender :&nbsp;</td>
+                                <td>
+                                    <input type="radio" name="gender" value="male">Male&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="gender" value="female"> Female
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Salary :&nbsp;</td>
+                                <td>
+                                    <input type="text" name="salary" value="" size="36">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Remarks :&nbsp;</td>
+                                <td>
+                                    <textarea name="remarks" rows="4" cols="40"> Type your text here</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">Country :&nbsp;</td>
+                                <td>
+                                    <select name="country">
+                                        <option value=" Australia">Australia</option>
+                                        <option value="VietNam">VietNam</option>
+                                        <option value="Thailand">Thailand</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="5"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" align="center">
+                                    <input type="submit" name="send" value="SUBMIT">
+                                    <input type="reset" name="cancel" value="RESET">
+                                </td>
+                            </tr>
+                        </table><br>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+
+</html>
